@@ -18,9 +18,6 @@ jobs:
         with:
           submodules: 'true'
 
-      - name: Fetch Submodules Recursively
-        run: git submodule update --init --recursive
-
       - name: .NET 10 Setup
         uses: actions/setup-dotnet@v5
         with:
